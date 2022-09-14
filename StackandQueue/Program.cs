@@ -11,10 +11,12 @@ namespace StackandQueue
         static void Main(string[] args)
         {
             Stack stacklist = new Stack();
-            Console.WriteLine("Push elements in the stacklist :");
+        
             stacklist.Push(70);
             stacklist.Push(30);
             stacklist.Push(56);
+            stacklist.Peek();
+            stacklist.Pop();
             stacklist.Display();
             Console.ReadLine();
         }
