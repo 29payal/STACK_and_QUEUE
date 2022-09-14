@@ -14,6 +14,7 @@ namespace StackandQueue
             queuelist.Enqueue(56);
             queuelist.Enqueue(30);
             queuelist.Enqueue(70);
+            queuelist.Dequeue();
             queuelist.Display();
 
             Console.ReadLine();
