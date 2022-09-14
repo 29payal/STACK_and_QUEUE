@@ -10,14 +10,12 @@ namespace StackandQueue
     {
         static void Main(string[] args)
         {
-            Stack stacklist = new Stack();
-        
-            stacklist.Push(70);
-            stacklist.Push(30);
-            stacklist.Push(56);
-            stacklist.Peek();
-            stacklist.Pop();
-            stacklist.Display();
+            Queue queuelist = new Queue();
+            queuelist.Enqueue(56);
+            queuelist.Enqueue(30);
+            queuelist.Enqueue(70);
+            queuelist.Display();
+
             Console.ReadLine();
         }
     }

@@ -46,6 +46,7 @@
     <Compile Include="UC2-StackPop.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC3-Queue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
